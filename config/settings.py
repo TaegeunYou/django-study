@@ -35,7 +35,7 @@ SECRET_KEY = ''.join([random.SystemRandom().choice(chars) for i in range(50)])
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.38.66.85']
 
 
 # Application definition
